@@ -10,7 +10,7 @@ def calcular():
 
     try:
         resultado = eval(operacion)
-        print("Resultado:", resultado)
+        print("\033[92mResultado:", resultado, "\033[0m")
     except:
         print("Error: operación inválida")
 
