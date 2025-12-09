@@ -3,9 +3,14 @@ def calcular():
     print("Bienvenido a mi proyecto de Docker!")
 
     print("=== Calculadora en Docker ===")
+    print("=== Si quieres salir escribe salir ===")
     operacion = input("Ingresa una operación (ej: 5+3): ")
     if operacion.strip() == "":
         print("No ingresaste nada")
+        return
+
+    if operacion.lower() == "salir":
+        print("Adiós!")
         return
 
     try:
