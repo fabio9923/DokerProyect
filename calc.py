@@ -1,7 +1,7 @@
 # Calculadora para proyecto Docker + GitHub CI/CD
 def calcular():
     print("Bienvenido a mi proyecto de Docker!")
-
+    print("¡Esta es la versión 1 de la calculadora!")
     print("=== Calculadora en Docker ===")
     print("=== Si quieres salir escribe salir ===")
     operacion = input("Ingresa una operación (ej: 5+3): ")
